@@ -1,0 +1,28 @@
+{
+    "name": "ngugijames/cashlink",
+    "description": "API for the MotoCheck App.",
+    "type": "Library",
+    "license": "Proprietary",
+    "authors": [
+        {
+            "name": "James Ngugi",
+            "email": "ngugi823@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/dom-crawler": "^2.7",
+        "guzzlehttp/guzzle": "^6.1"
+    },
+       "autoload": {
+        "classmap": [
+            
+        ],
+        "files": [
+            "src/config/constants.php"
+        ],
+        "psr-4": {
+            "MotoCheck\\": "src/MotoCheck/"
+        }
+    }
+}
